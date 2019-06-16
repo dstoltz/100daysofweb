@@ -1,0 +1,22 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- load MUI -->
+        <link href="//cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    </head>
+    <body>
+        <div class="mui-panel">Menu Bar - 
+            <button class="mui-btn mui-btn--raised"><a href="/index">Home</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/about">About</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/contact">Contact</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/chuck">Chuck Generator</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/pokemon">Pokemon</a></button>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
