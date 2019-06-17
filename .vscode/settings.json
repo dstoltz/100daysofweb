@@ -1,5 +1,7 @@
 {
     "python.pythonPath": "D:\\100daysofweb\\quart-async\\day2\\venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "sync.autoUpload": true,
+    "sync.gist": " f34e36fef809029b44037ef3decc6467b901e5d8"
 }
