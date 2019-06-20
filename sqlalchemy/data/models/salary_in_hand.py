@@ -1,0 +1,1 @@
+# TODO Salary in hand details having employee id, CTC salary, pf deduction or any other deduction and net salary to be given and also maintain  details of total savings of employee
