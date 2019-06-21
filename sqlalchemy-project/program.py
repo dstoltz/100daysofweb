@@ -1,19 +1,21 @@
 import datetime
 import random
 
+
+
 from data import session_factory
-from data.models.locations import Location
-from data.models.rentals import Rental
-from data.models.scooters import Scooter
-from data.models.users import User
+from data.models.employee import Employee
+from data.models.salary import Salary
+from data.models.salary_in_hand import Salary_In_Hand
 from services import data_service
 
 
+
 def import_if_empty():
-    __import_locations()
-    __import_scooters()
-    __import_users()
-    __import_rentals()
+    __import_employee()
+    __import_salary()
+    __import_salary_in_hand()
+    
 
 
 def __import_scooters():

@@ -1,9 +1,10 @@
 {
-    "python.pythonPath": "D:\\100daysofweb\\sqlalchemy\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "D:\\100daysofweb\\sqlalchemy-project\\venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "sync.autoUpload": true,
     "python.autoComplete.addBrackets": true,
-    "python.testing.pyTestEnabled": true,
-    "python.envFile": ".env" 
+    "python.envFile": ".env",
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.testing.promptToConfigure": false
 }
