@@ -10,7 +10,6 @@ from data.models.salary_in_hand import Salary_In_Hand
 from services import data_service
 
 
-
 def import_if_empty():
     __import_employee()
     __import_salary()
@@ -18,7 +17,7 @@ def import_if_empty():
     
 
 
-def __import_scooters():
+def __import_employee():
     session = session_factory.create_session()
     if session.query(Scooter).count() > 0:
         return

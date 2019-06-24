@@ -6,5 +6,7 @@
     "python.autoComplete.addBrackets": true,
     "python.envFile": ".env",
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
-    "python.testing.promptToConfigure": false
+    "python.testing.promptToConfigure": false,
+    "python.linting.pep8Enabled": false
+    
 }
