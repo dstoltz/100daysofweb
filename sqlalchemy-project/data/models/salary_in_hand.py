@@ -16,9 +16,7 @@ class Salary_In_Hand(SqlAlchemyBase):
     created_date = sqlalchemy.Column(sqlalchemy.DateTime, default=datetime.datetime.now, index=True)
 
     designation = sqlalchemy.Column(sqlalchemy.String)
-    street = sqlalchemy.Column(sqlalchemy.String)
-    city = sqlalchemy.Column(sqlalchemy.String, index=True)
-    state = sqlalchemy.Column(sqlalchemy.String, index=True)
+    
 
     
 
