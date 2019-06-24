@@ -7,6 +7,13 @@
     "python.envFile": ".env",
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "python.testing.promptToConfigure": false,
-    "python.linting.pep8Enabled": false
+    "python.linting.pep8Enabled": false,
+    "sqltools.connections": [
+        {
+            "database": ".\\pyramid-project\\billtracker\\billtracker\\db\\bill_tracker.sqlite",
+            "dialect": "SQLite",
+            "name": "sqlite"
+        }
+    ]
     
 }
