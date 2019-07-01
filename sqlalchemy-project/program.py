@@ -2,7 +2,6 @@ import datetime
 import random
 
 
-
 from data import session_factory
 from data.models.employee import Employee
 from data.models.salary import Salary
@@ -19,10 +18,11 @@ def import_if_empty():
 
 def __import_employee():
     session = session_factory.create_session()
-    if session.query(Scooter).count() > 0:
+    if session.query(Employee).count() > 0:
         return
 
-    models = [
+    
+    employee_id = [
         'Hover-1 1st edition',
         'Hover-1 Sport 1st edition',
         'Hover-1 Touring 1st edition',

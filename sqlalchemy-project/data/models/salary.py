@@ -19,7 +19,10 @@ class Salary(SqlAlchemyBase):
     street = sqlalchemy.Column(sqlalchemy.String)
     city = sqlalchemy.Column(sqlalchemy.String, index=True)
     state = sqlalchemy.Column(sqlalchemy.String, index=True)
+    gross_salary = sqlalchemy.Column(sqlalchemy.Integer)
+    deductions = sqlalchemy.Column(sqlalchemy.Integer)
+    net_salary = sqlalchemy.Column(sqlalchemy.Integer)
 
-    max_storage = sqlalchemy.Column(sqlalchemy.Integer, index=True)
+    # max_storage = sqlalchemy.Column(sqlalchemy.Integer, index=True)
 
-    scooters = orm.relation('Scooter', back_populates='location')
+    employee_id = orm.relation('Employee', back_populates='employee_id')

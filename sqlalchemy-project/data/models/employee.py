@@ -13,7 +13,7 @@ class Employee(SqlAlchemyBase):
 
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True, autoincrement=True)
 
-    employee_id = sqlalchemy.Column(sqlalchemy.Integer, index=True, autoincrement=True)
+    employee_id = sqlalchemy.Column(sqlalchemy.Integer, index=True, autoincrement=True, unique=True)
 
     created_date = sqlalchemy.Column(sqlalchemy.DateTime, default=datetime.datetime.now, index=True)
 
@@ -24,4 +24,4 @@ class Employee(SqlAlchemyBase):
 
     #max_storage = sqlalchemy.Column(sqlalchemy.Integer, index=True)
 
-    #scooters = orm.relation('Scooter', back_populates='location')
+    #gross_salary = orm.relation('Salary', back_populates='gross_salary')

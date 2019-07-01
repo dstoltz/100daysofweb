@@ -4,3 +4,5 @@ import data.models.employee
 import data.models.salary
 # noinspection PyUnresolvedReferences
 import data.models.salary_in_hand
+
+import data.models.users

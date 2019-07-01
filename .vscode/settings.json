@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "D:\\100daysofweb\\pyramid-project\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "D:\\100daysofweb\\sqlalchemy-project\\venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "sync.autoUpload": true,
